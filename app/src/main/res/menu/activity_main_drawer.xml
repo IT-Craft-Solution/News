@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/menu_gallery"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="@string/menu_slideshow"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_sky"
+            android:title="SKY"
+            android:menuCategory="secondary"/>
+    </group>
+    <item android:title="Upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/ny"
+                android:title="NEW YORK TIMES"
+                android:menuCategory="secondary"
+                />
+        </menu>
+    </item>
+</menu>
